@@ -64,7 +64,7 @@ const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
     title: "Project Team Lead, Intern",
-    cardImage: "assets/images/experience-page/UCL.JPG",
+    cardImage: "assets/images/experience-page/YOLO.JPG",
     place: "Youth Online Learning Opportunities",
     time: "(May2020-present)",
     desp: "<li>Automatic detection of Orthopedic Implants using Deep Learning.</li> <li>Collection of radiographs, data cleaning and database management.</li> <li>Image Quality Analysis for Bio-Medical Images.</li> <li>Serving Models using TensorFlow JS.</li> <li>Experimenting with Few Shot Learning, Adversarial Training and Class Activation Maps.</li>",
