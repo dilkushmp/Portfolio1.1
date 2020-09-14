@@ -71,7 +71,7 @@ const exp = [
   },
   {
     title: "Reasearch and Development,Intern",
-    cardImage: "assets/images/experience-page/Hounds.png",
+    cardImage: "assets/images/experience-page/Hound.png",
     place: "Hound Electric Pvt. Ltd",
     time: "(April,2020 - 15 Days)",
     desp: "<li> Reasearched Autonomous Electric Vehicle</li> <li>Static requirement their Possiblity in Roads</li> <li>Costs and Marketing.</li>",
