@@ -38,7 +38,7 @@ let header = $(`
         <li><a class="white-text" href="research.html">Research</a></li>
         <li><a class="white-text" href="education.html">Education</a></li>
         <li><a class="white-text" href="index.html">Blog</a></li>
-        <li><a class="white-text" href="https://docs.google.com/document/d/1-SX2Pz1rD9D1IS-r5PpCCb1JeihSM_BtnI5Y9uruQGc/edit?usp=sharing" target="_blank">My Resume</a></li>
+        <li><a class="white-text" href="https://docs.google.com/document/d/1NNUV12tRLJhrUAGyIRDQ2gexTD0jgvtdl80EAEqYmmw/edit?usp=sharing" target="_blank">My Resume</a></li>
         <!--TOGGLE FOR LIGHT/DARK MODE-->
         <li>
         <label for="switch" class="theme-switch">
@@ -66,7 +66,7 @@ let header = $(`
 <li><a href="research.html">Research</a></li>
 <li><a href="education.html">Education</a></li>
 <li><a href="index.html">Blog</a></li>
-<li><a href="https://docs.google.com/document/d/1-SX2Pz1rD9D1IS-r5PpCCb1JeihSM_BtnI5Y9uruQGc/edit?usp=sharing" target="_blank">My Resume</a></li>
+<li><a href="https://docs.google.com/document/d/1NNUV12tRLJhrUAGyIRDQ2gexTD0jgvtdl80EAEqYmmw/edit?usp=sharing" target="_blank">My Resume</a></li>
 
 
 <!--TOGGLE FOR LIGHT/DARK MODE-->
