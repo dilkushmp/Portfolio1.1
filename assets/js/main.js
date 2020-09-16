@@ -110,7 +110,7 @@ let footer = $(`
     <i class="fab fa-twitter"></i>
       </a>
   <a class="social-icon-footer instagram" href="" target="_blank" rel="author">
-    <i class="fab fa-dribbble"></i>
+    <i class="fab fa-instagram"></i>
       </a>
   <a class="social-icon-footer linkedin" href="" target="_blank" rel="author">
     <i class="fab fa-linkedin-in"></i>
@@ -138,10 +138,10 @@ let footer = $(`
       <div class="contact-form">
           <form>
               <fieldset class="form-group text-center">
-                  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter Name">
+                  <input type="text" class="form-control" id="mpdilkush@gmail.com" placeholder="Enter Name">
               </fieldset>
               <fieldset class="form-group text-center">
-                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                  <input type="email" class="form-control" id="mpdilkush@gmail.com" placeholder="Enter email">
               </fieldset>
               <fieldset class="form-group text-center">
                   <textarea class="form-control" id="exampleMessage" placeholder="Message"></textarea>
