@@ -146,8 +146,8 @@ let footer = $(`
                   <textarea class="form-control" id="exampleMessage" placeholder="Message"></textarea>
               </fieldset>
               <fieldset class="form-group text-xs-right text-center">
-                  <a  href="mailto:mpdilkush@gmail.com"  button id="submit_button"type="submit" class="class="send-btn btn btn-lg"" onclick="submit_comment()"> Submit </a> </button>
-                 
+                  
+                  <a href="mailto:mpdilkush@gmail.com" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Send</a> 
               </fieldset>
           </form>
       </div>
