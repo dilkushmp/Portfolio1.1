@@ -117,7 +117,7 @@ let footer = $(`
       </a>
  
   <a class="social-icon-footer facebook" href="https://www.facebook.com/MPDILKUSH" target="_blank" rel="author">
-    <i class="fab fa-medium-m"></i>
+    <i class="fab fa-facebook"></i>
       </a>
   
   <a class="social-icon-footer github" href="https://github.com/dilkushmp/" target="_blank" rel="author">
