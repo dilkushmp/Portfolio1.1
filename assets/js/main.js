@@ -134,19 +134,19 @@ let footer = $(`
         </h4>
         <!-- TT-SUBSCRIBE -->
       
-      <div class="contact-form">
+     <div class="contact-form">
           <form>
               <fieldset class="form-group text-center">
-                  <input type="text" class="form-control" id="mpdilkush@gmail.com" placeholder="Enter Name">
+                  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter Name">
               </fieldset>
               <fieldset class="form-group text-center">
-                  <input type="email" class="form-control" id="mpdilkush@gmail.com" placeholder="Enter email">
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
               </fieldset>
               <fieldset class="form-group text-center">
                   <textarea class="form-control" id="exampleMessage" placeholder="Message"></textarea>
               </fieldset>
               <fieldset class="form-group text-xs-right text-center">
-                  <button type="button" class="send-btn btn btn-lg" href="mailto:mpdilkush@gmail.com" Send email </a> >Send</button>
+                  <button type="button" class="send-btn btn btn-lg" href="mailto:mpdilkush@gmail.com" >Send</button>
               </fieldset>
           </form>
       </div>
