@@ -106,22 +106,21 @@ let footer = $(`
     <!-- Social media icons for footer -->
 
 <div class="social-icons-footer">
-  <a class="social-icon-footer twitter" href="https://twitter.com/DilkushMP" target="_blank" rel="author">
+ <a class="social-icon-footer linkedin" href="https://www.linkedin.com/in/dilkushmp/" target="_blank" rel="author">
+    <i class="fab fa-linkedin-in"></i>
+      </a> 
+ <a class="social-icon-footer twitter" href="https://twitter.com/DilkushMP" target="_blank" rel="author">
     <i class="fab fa-twitter"></i>
       </a>
-  <a class="social-icon-footer instagram" href="" target="_blank" rel="author">
+  <a class="social-icon-footer instagram" href="https://www.instagram.com/dilkushmp/" target="_blank" rel="author">
     <i class="fab fa-instagram"></i>
       </a>
-  <a class="social-icon-footer linkedin" href="" target="_blank" rel="author">
-    <i class="fab fa-linkedin-in"></i>
-      </a>
-  <a class="social-icon-footer facebook" href="" target="_blank" rel="author">
+ 
+  <a class="social-icon-footer facebook" href="https://www.facebook.com/MPDILKUSH" target="_blank" rel="author">
     <i class="fab fa-medium-m"></i>
       </a>
-  <a class="social-icon-footer kaggle" href="" target="_blank" rel="author">
-    <i class="fab fa-kaggle"></i>
-      </a>
-  <a class="social-icon-footer github" href="" target="_blank" rel="author">
+  
+  <a class="social-icon-footer github" href="https://github.com/dilkushmp/" target="_blank" rel="author">
     <i class="fab fa-github"></i>
       </a>
 </div>
