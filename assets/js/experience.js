@@ -3,22 +3,22 @@
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "GirlScript Summer Of Code 2020",
-    cardImage: "/assets/images/experience-page/1.jpg",
+    title: "Institution Of Engineers (India)",
+    cardImage: "/assets/images/experience-page/ie.jpg",
     description:
-      "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
+      "First year: Student Representative, Second Year: General Secretary, Third Year: Student Convener ",
   },
   {
-    title: "StudentCode-in 2020",
-    cardImage: "/assets/images/experience-page/2.jpg",
+    title: " Society of Automotive Engineers India",
+    cardImage: "/assets/images/experience-page/sae.jpg",
     description:
-      "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
+      "Particiapted SAE ADC 2020 as Team Captain of Aero NSS team",
   },
   {
-    title: "PClub Summer Of Code 2020",
-    cardImage: "/assets/images/experience-page/3.jpg",
+    title: "Aeromodelling and Arial Robotics Club",
+    cardImage: "/assets/images/experience-page/aarc.jpg",
     description:
-      "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
+      "Co- founder of this college club and Vice President",
   },
   {
     title: "Hakin-Codes",
