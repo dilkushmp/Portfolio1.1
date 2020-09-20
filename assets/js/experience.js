@@ -12,7 +12,7 @@ const volunteershipcards = [
     title:"Institution of Engineers (India)",
     cardImage: "assets/images/experience-page/ie.png",
     description:
-      "Acted as Student Convener, General Secretary,Student Representative",
+      "Acted as Student Convener,General Secretary & Student Representative",
   },
   {
     title: " Aeromodelling and Arial Robotics Club" ,
@@ -22,7 +22,7 @@ const volunteershipcards = [
   },
   {
     title: "Hakin-Codes",
-    cardImage: "/assets/images/experience-page/4.png",
+    cardImage: "assets/images/experience-page/4.png",
     description:
       "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
   },
