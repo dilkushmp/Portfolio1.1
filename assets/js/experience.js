@@ -28,13 +28,13 @@ const volunteershipcards = [
   },
   {
     title: "30 DaysofFlutter",
-    cardImage: "/assets/images/experience-page/5.jpg",
+    cardImage: "/assets/images/experience-page/5.png",
     description:
       "Helping beginners from their first steps in Flutter to building fully functional cross-platform applications.",
   },
   {
     title: "Garuda Hacks",
-    cardImage: "/assets/images/experience-page/6.jpg",
+    cardImage: "/assets/images/experience-page/6.png",
     description:
       "MLH sponsored Indonesia's premier Global Virtual Hackathon on 14 - 16th August 2020.",
   },
