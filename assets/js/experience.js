@@ -26,7 +26,6 @@ const volunteershipcards = [
     description:
       "IoT Lab Head for period of 2020-2021",
   },
-  
 ];
 
 const showCards = () => {
@@ -58,7 +57,6 @@ const exp = [
     time: "(September 2020-present)",
     desp: "<li>Project Excecutive of Project My Pincode. </li> <li>Social Media For Social Change</li>
   },
-
   {
     title: "Project Team Lead, Intern",
     cardImage: "assets/images/experience-page/YOLO.png",
