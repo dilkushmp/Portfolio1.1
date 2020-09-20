@@ -135,7 +135,7 @@ let footer = $(`
         <!-- TT-SUBSCRIBE -->
       
      <div class="contact-form">
-          <form>
+          <form name="contact" method="POST" data-netlify="true">
               <fieldset class="form-group text-center">
                   <input type="text" class="form-control" id="exampleName" placeholder="Enter Name">
               </fieldset>
@@ -146,7 +146,8 @@ let footer = $(`
                   <textarea class="form-control" id="exampleMessage" placeholder="Message"></textarea>
               </fieldset>
               <fieldset class="form-group text-xs-right text-center">
-                  <a href=" mailto:mpdilkush@gmail.com" button type="button" class="send-btn btn btn-lg">Send</button> </a>
+              <button type="button" class="send-btn btn btn-lg">Send</button> 
+                  <!-- <a href=" mailto:mpdilkush@gmail.com" button type="button" class="send-btn btn btn-lg">Send</button> </a> -->
               </fieldset>
           </form>
       </div>
