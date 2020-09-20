@@ -35,7 +35,7 @@ const showCards = () => {
       (output += `
       <div class="card" style="background-image: url(${cardImage});background-repeat: no-repeat, repeat; background-size: cover; background-position: center;">
       <div class="content">
-          <h2 class="title">${title}</h2>
+          <h3 class="title">${title}</h3>
           <p class="copy">${description}</p></div>
       </div>
       `)
