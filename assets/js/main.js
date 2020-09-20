@@ -135,7 +135,7 @@ let footer = $(`
         <!-- TT-SUBSCRIBE -->
       
      <div class="contact-form">
-          <form name="contact" method="POST" data-netlify="true">
+          <form name="contact" method="POST" data-netlify="true" data-success="Message successfully sent!">
               <fieldset class="form-group text-center">
                   <input type="text" class="form-control" id="exampleName" placeholder="Enter Name">
               </fieldset>
