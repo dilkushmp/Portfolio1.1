@@ -55,7 +55,7 @@ const exp = [
     cardImage: "assets/images/experience-page/YOLO.png",
     place: "Youth Online Learning Opportunities",
     time: "(September 2020-present)",
-    desp: "<li>Project Excecutive of Project My Pincode. </li> <li>Social Media For Social Change</li>
+    desp: "<li>Project Excecutive of Project My Pincode. </li> <li>Social Media For Social Change</li>"
   },
   {
     title: "Project Team Lead, Intern",
