@@ -21,23 +21,12 @@ const volunteershipcards = [
       "Co- founder of this college club and Vice President",
   },
   {
-    title: "Hakin-Codes",
-    cardImage: "assets/images/experience-page/4.png",
+    title: "iEDC NSSCE",
+    cardImage: "assets/images/experience-page/edc.png",
     description:
-      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
+      "IoT Lab Head for period of 2020-2021",
   },
-  {
-    title: "30 DaysofFlutter",
-    cardImage: "/assets/images/experience-page/5.png",
-    description:
-      "Helping beginners from their first steps in Flutter to building fully functional cross-platform applications.",
-  },
-  {
-    title: "Garuda Hacks",
-    cardImage: "/assets/images/experience-page/6.png",
-    description:
-      "MLH sponsored Indonesia's premier Global Virtual Hackathon on 14 - 16th August 2020.",
-  },
+  
 ];
 
 const showCards = () => {
@@ -63,10 +52,18 @@ document.addEventListener("DOMContentLoaded", showCards);
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
+    title: "Project Excecutive, Intern",
+    cardImage: "assets/images/experience-page/YOLO.png",
+    place: "Youth Online Learning Opportunities",
+    time: "(September 2020-present)",
+    desp: "<li>Project Excecutive of Project My Pincode. </li> <li>Social Media For Social Change</li>
+  },
+
+  {
     title: "Project Team Lead, Intern",
     cardImage: "assets/images/experience-page/YOLO.png",
     place: "Youth Online Learning Opportunities",
-    time: "(May,2020-present)",
+    time: "(May,2020-September 2020)",
     desp: "<li>I have worked in social community projects. </li> <li>I have managed lots of intern, Also guided them.</li> <li>Worked in recruitment team.</li> <li>Attended Lots of Online training section of Management Skills.</li> <li>I have interacted people from All over India .</li>",
   },
   {
