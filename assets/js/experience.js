@@ -7,7 +7,7 @@ const volunteershipcards = [
     "Society of Automotive Engineers India ",
     cardImage: "assets/images/experience-page/sae.png",
     description:
-      "First year: Student Representative, Second Year: General Secretary, Third Year: Student Convener ",
+      "SCdsgsdgsdb d dfg dfg dfg dfg d ",
   },
   {
     title:
