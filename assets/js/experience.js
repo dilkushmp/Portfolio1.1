@@ -12,7 +12,7 @@ const volunteershipcards = [
     title:"Institution of Engineers (India)",
     cardImage: "assets/images/experience-page/ie.png",
     description:
-      " Student Convener (2019-2020), General Secretary (2018-2019), Representative (2017-2018)",
+      "Acted as Student Convener, General Secretary,Student Representative",
   },
   {
     title: " Aeromodelling and Arial Robotics Club" ,
