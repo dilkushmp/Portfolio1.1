@@ -52,7 +52,7 @@ const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
     title: "Project Excecutive, Intern",
-    cardImage: "assets/images/experience-page/YOLO.png",
+    cardImage: "assets/images/experience-page/YOLO1.png",
     place: "Youth Online Learning Opportunities",
     time: "(September 2020-present)",
     desp: "<li>Project Excecutive of Project My Pincode. </li> <li>Social Media For Social Change</li>"
