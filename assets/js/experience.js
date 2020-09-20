@@ -12,13 +12,13 @@ const volunteershipcards = [
   {
     title:
      "Institution of Engineers (India)",
-    cardImage: "/assets/images/experience-page/ie.png",
+    cardImage: "assets/images/experience-page/ie.png",
     description:
       "Particiapted SAE ADC 2020 as Team Captain of Aero NSS team",
   },
   {
     title: " Aeromodelling and Arial Robotics Club" ,
-    cardImage: "/assets/images/experience-page/aarc.png",
+    cardImage: "assets/images/experience-page/aarc.png",
     description:
       "Co- founder of this college club and Vice President",
   },
