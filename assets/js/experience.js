@@ -22,7 +22,7 @@ const volunteershipcards = [
   },
   {
     title: "Hakin-Codes",
-    cardImage: "/assets/images/experience-page/4.jpg",
+    cardImage: "/assets/images/experience-page/4.png",
     description:
       "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
   },
@@ -44,7 +44,7 @@ const showCards = () => {
   let output = "";
   volunteershipcards.forEach(
     ({ title, cardImage, description }) =>
-      (output += `        
+      (output += `
       <div class="card" style="background-image: url(${cardImage});background-repeat: no-repeat, repeat; background-size: cover; background-position: center;">
       <div class="content">
           <h2 class="title">${title}</h2>
@@ -89,7 +89,7 @@ const showCards2 = () => {
   let output = "";
   exp.forEach(
     ({ title, cardImage, place, time, desp }) =>
-      (output += `        
+      (output += `
       <ul>
       <li class="card card1">
         <img src="${cardImage}" class="featured-image"/>
