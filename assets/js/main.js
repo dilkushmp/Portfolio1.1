@@ -135,15 +135,15 @@ let footer = $(`
         <!-- TT-SUBSCRIBE -->
       
      <div class="contact-form">
-          <form name="contact" method="POST">
+          <form name="contact" method="POST" action="assets/php/contact.php">
               <fieldset class="form-group text-center">
-                  <input type="text" class="form-control" id="exampleName" placeholder="Enter Name">
+                  <input type="text" class="form-control" id="cf_name" placeholder="Enter Name">
               </fieldset>
               <fieldset class="form-group text-center">
-                  <input type="email" class="form-control" id="exampleEmail" placeholder="Enter email">
+                  <input type="email" class="form-control" id="cf_email" placeholder="Enter email">
               </fieldset>
               <fieldset class="form-group text-center">
-                  <textarea class="form-control" id="exampleMessage" placeholder="Message"></textarea>
+                  <textarea class="form-control" id="cf_message" placeholder="Message"></textarea>
               </fieldset>
               <fieldset class="form-group text-xs-right text-center">
               <button type="button" class="send-btn btn btn-lg">Send</button> 
