@@ -3,20 +3,20 @@
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "Institution Of Engineers (India)",
-    cardImage: "/assets/images/experience-page/ie.jpg",
+    title: "Institution of Engineers(India)",
+    cardImage: "/assets/images/experience-page/ie.png",
     description:
       "First year: Student Representative, Second Year: General Secretary, Third Year: Student Convener ",
   },
   {
     title: " Society of Automotive Engineers India",
-    cardImage: "/assets/images/experience-page/sae.jpg",
+    cardImage: "/assets/images/experience-page/sae.png",
     description:
       "Particiapted SAE ADC 2020 as Team Captain of Aero NSS team",
   },
   {
     title: "Aeromodelling and Arial Robotics Club",
-    cardImage: "/assets/images/experience-page/aarc.jpg",
+    cardImage: "/assets/images/experience-page/aarc.png",
     description:
       "Co- founder of this college club and Vice President",
   },
