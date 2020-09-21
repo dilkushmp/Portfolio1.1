@@ -2,27 +2,19 @@
     "researchPapers" :
     [
         {
-            "title" : "CORONA-19 NET: Transfer Learning Approach for Automatic Classification of Coronavirus Infections in Chest Radiographs",
+            "title" : "Offshore wind energy and suction bucket system",
             "authors" : "S Sharma, S Ghose, S Datta, C Malathy, M Gayathri, M Prabhakaran",
-            "conferences" : "International Conference on Image Processing and Capsule Networks, 526-534",
+            "conferences" : "National Conference on Emerging Trends in Mechanical Engineering, NCETME-2019, 75-79",
+            "year" : ", 2019",
+            "researchYr" : 2019
+        },
+
+        {
+            "title" : "Autonomous Vehicle",
+            "authors" : "Mohammed Dilkush MP, Dr. Sudheep U",
+            "conferences" : "Seminar",
             "year" : ", 2020",
             "researchYr" : 2020
-        },
-
-        {
-            "title" : "CORONA-19 NET: Transfer Learning Approach for Automatic Classification of Coronavirus Infections in Chest Radiographs",
-            "authors" : "S Sharma, S Ghose, S Datta, C Malathy, M Gayathri, M Prabhakaran",
-            "conferences" : "International Conference on Image Processing and Capsule Networks, 526-534",
-            "year" : ", 2020",
-            "researchYr" : 2010
-        },
-
-        {
-            "title" : "CORONA-19 NET: Transfer Learning Approach for Automatic Classification of Coronavirus Infections in Chest Radiographs",
-            "authors" : "S Sharma, S Ghose, S Datta, C Malathy, M Gayathri, M Prabhakaran",
-            "conferences" : "International Conference on Image Processing and Capsule Networks, 526-534",
-            "year" : ", 2020",
-            "researchYr" : 2009
         }
     ],
 
