@@ -4,7 +4,7 @@ const projectcards = document.querySelector(".projectcards");
 const projects = [
   {
     title: "Electric Vehicle",
-    cardImage: "assets/images/project-page/ev.jpg",
+    cardImage: "/assets/images/project-page/ev.jpg",
     description:
       "Its a deep learning application which is used to simulate holi affect for your any single or group pictures!",
     Previewlink: "https://github.com/smaranjitghose/DeepHoli",
@@ -12,7 +12,7 @@ const projects = [
   },
   {
     title: "Fastest Drone Delivery",
-    cardImage: "assets/images/project-page/mini.jpg",
+    cardImage: "/assets/images/project-page/mini.jpg",
     description:
       "Academic Design Project.Deliver products with high speed and mainly concentrated on Medical purposes. Role: Hardware, Mechanical Design, Team Coordinator. Team Size: 7",
     Previewlink: "https://github.com/smaranjitghose/auto_vaidya",
@@ -20,7 +20,7 @@ const projects = [
   },
   {
     title: "SAE Aero Design Challenge",
-    cardImage: "assets/images/project-page/adc.jpeg",
+    cardImage: "/assets/images/project-page/adc.jpeg",
     description:
       "Design a Fixed wing Aircraft capable of  lifting desired Payload. Role: Mechanical Design, Team Captain. Team Size: 7",
     Previewlink: "https://github.com/smaranjitghose/doc2pen",
