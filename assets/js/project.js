@@ -17,14 +17,14 @@ const projects = [
       "Academic Design Project.Deliver products with high speed and mainly concentrated on Medical purposes. Role: Hardware, Mechanical Design, Team Coordinator. Team Size: 7",
     Previewlink: "https://github.com/smaranjitghose/auto_vaidya",
     Githublink: "https://github.com/smaranjitghose/auto_vaidya",
-  },l
+  },
   {
     title: "SAE Aero Design Challenge",
     cardImage: "assets/images/project-page/adc.jpeg",
     description:
       "Design a Fixed wing Aircraft capable of  lifting desired Payload. Role: Mechanical Design, Team Captain. Team Size: 7",
     Previewlink: "https://github.com/smaranjitghose/doc2pen",
-    Githublink: "#https://github.com/smaranjitghose/doc2pen",
+    Githublink: "https://github.com/smaranjitghose/doc2pen",
   },
 ];
 
