@@ -22,7 +22,7 @@ const projects = [
     title: "SAE Aero Design Challenge",
     cardImage: "assets/images/project-page/adc.jpeg",
     description:
-      "Design a Fixed wing Aircraft capable of  lifting desired Payload. Role: Mechanical Design",
+      "Design a Fixed wing Aircraft capable of  lifting desired Payload.",
     Previewlink: "https://github.com/smaranjitghose/doc2pen",
     Githublink: "https://github.com/smaranjitghose/doc2pen",
   },

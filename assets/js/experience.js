@@ -61,7 +61,7 @@ const exp = [
     title: "Project Team Lead, Intern",
     cardImage: "assets/images/experience-page/YOLO.png",
     place: "Sarvahitey NGO",
-    time: "(May,2020-September 2020)",
+    time: "(May,2020- 4 Month)",
     desp: "<li>I have worked in social community projects. </li> <li>I have managed lots of intern, Also guided them.</li> <li>Worked in recruitment team.</li> <li>Attended Lots of Online training section of Management Skills.</li> <li>I have interacted people from All over India .</li>",
   },
   {
