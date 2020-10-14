@@ -1,4 +1,36 @@
 //common side navbar call
+<?php
+  $message_sent = false;
+  if (isset($_POST['email'])&& $_POST['email'] !=''){
+
+    if(filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) ){
+
+      //Submit the form
+      $userName =$_POST['name'];
+      $userEmail =$_POST['email'];
+      $messageSubject =$_POST['subject'];
+      $message =$_POST['message'];
+
+      $to="mpdilkush@gmail.com"
+      $body = " ";
+
+      $body .= "Form: ".$userName. "\r\n";
+      $body .= "Email: ".$userEmail. "\r\n";
+      $body .= "message: ".$message. "\r\n";
+
+      mail($to,$messageSubject,$body);
+
+      $message_sent = true;
+
+    }
+  else{
+    $invalid_class_name = "form-invalid";
+  }
+  }
+
+
+?>
+
 
 $(document).ready(function () {
   $(".sidenav").sidenav();
@@ -92,7 +124,7 @@ let footer = $(`
   <div class="container">
     <div class="row">
       <div class="col-lg-7 col-md-6 pt-3" >
-      <div class="col-sm-6 col-md-7"> 
+      <div class="col-sm-6 col-md-7">
         <a class="webintern-footer-logo" href="#">
           <center><img src="assets/images/John-Doe1.png"style="width: 220px;"/></center>
         </a>
@@ -108,18 +140,18 @@ let footer = $(`
 <div class="social-icons-footer">
  <a class="social-icon-footer linkedin" href="https://www.linkedin.com/in/dilkushmp/" target="_blank" rel="author">
     <i class="fab fa-linkedin-in"></i>
-      </a> 
+      </a>
  <a class="social-icon-footer twitter" href="https://twitter.com/DilkushMP" target="_blank" rel="author">
     <i class="fab fa-twitter"></i>
       </a>
   <a class="social-icon-footer instagram" href="https://www.instagram.com/dilkushmp/" target="_blank" rel="author">
     <i class="fab fa-instagram"></i>
       </a>
- 
+
   <a class="social-icon-footer facebook" href="https://www.facebook.com/MPDILKUSH" target="_blank" rel="author">
     <i class="fab fa-facebook"></i>
       </a>
-  
+
   <a class="social-icon-footer github" href="https://github.com/dilkushmp/" target="_blank" rel="author">
     <i class="fab fa-github"></i>
       </a>
@@ -127,33 +159,45 @@ let footer = $(`
     </div>
 
       <div class="col-sm-6 col-md-5 pt-3 footer-2">
-     
+
         <!-- footer_title -->
         <h4 class="webintern_footer_title h5">
           <small>Get In Touch</small>
         </h4>
         <!-- TT-SUBSCRIBE -->
-      
+      <?php
+      if ($message_sent):
+      ?>
+
+        <h3>Thanks, we'll be in touch</h3>
+
+      <?php
+      else:
+      ?>
      <div class="contact-form">
-          <form name="contact" method="POST" action="assets/php/contact.php">
+          <form action="webform.php" method="POST" class="form">
               <fieldset class="form-group text-center">
                   <input type="text" class="form-control" id="cf_name" placeholder="Enter Name">
               </fieldset>
               <fieldset class="form-group text-center">
-                  <input type="email" class="form-control" id="cf_email" placeholder="Enter email">
+                  <input <?=$invalid_class_name?? " ?>" type="email" class="form-control" id="cf_email" placeholder="Enter email">
               </fieldset>
               <fieldset class="form-group text-center">
                   <textarea class="form-control" id="cf_message" placeholder="Message"></textarea>
               </fieldset>
               <fieldset class="form-group text-xs-right text-center">
-              <button type="button" class="send-btn btn btn-lg">Send</button> 
+              <button type="button" class="send-btn btn btn-lg">Send</button>
                   <!-- <a href=" mailto:mpdilkush@gmail.com" button type="button" class="send-btn btn btn-lg">Send</button> </a> -->
               </fieldset>
           </form>
       </div>
         <div class="empty-space marg-lg-b30"></div>
       </div>
+      <?php
+      endif;
+      ?>
     </div>
+
   </div>
 </div>
 <div class="tt-copy">
@@ -166,7 +210,7 @@ let bodyElement = $(`body`);
 bodyElement.prepend(header);
 bodyElement.append(footer);
 
-/*JavaScript for toggle for light/dark mode*/ 
+/*JavaScript for toggle for light/dark mode*/
 
 var checkbox = document.querySelector('input[name=theme]');
 if(checkbox)
