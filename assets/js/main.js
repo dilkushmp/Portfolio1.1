@@ -1,36 +1,3 @@
-//common side navbar call
-<?php
-  $message_sent = false;
-  if (isset($_POST['email'])&& $_POST['email'] !=''){
-
-    if(filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) ){
-
-      //Submit the form
-      $userName =$_POST['name'];
-      $userEmail =$_POST['email'];
-      $messageSubject =$_POST['subject'];
-      $message =$_POST['message'];
-
-      $to="mpdilkush@gmail.com"
-      $body = " ";
-
-      $body .= "Form: ".$userName. "\r\n";
-      $body .= "Email: ".$userEmail. "\r\n";
-      $body .= "message: ".$message. "\r\n";
-
-      mail($to,$messageSubject,$body);
-
-      $message_sent = true;
-
-    }
-  else{
-    $invalid_class_name = "form-invalid";
-  }
-  }
-
-
-?>
-
 
 $(document).ready(function () {
   $(".sidenav").sidenav();
@@ -165,22 +132,13 @@ let footer = $(`
           <small>Get In Touch</small>
         </h4>
         <!-- TT-SUBSCRIBE -->
-      <?php
-      if ($message_sent):
-      ?>
-
-        <h3>Thanks, we'll be in touch</h3>
-
-      <?php
-      else:
-      ?>
      <div class="contact-form">
           <form action="webform.php" method="POST" class="form">
               <fieldset class="form-group text-center">
                   <input type="text" class="form-control" id="cf_name" placeholder="Enter Name">
               </fieldset>
               <fieldset class="form-group text-center">
-                  <input <?=$invalid_class_name?? " ?>" type="email" class="form-control" id="cf_email" placeholder="Enter email">
+                  <input type="email" class="form-control" id="cf_email" placeholder="Enter email">
               </fieldset>
               <fieldset class="form-group text-center">
                   <textarea class="form-control" id="cf_message" placeholder="Message"></textarea>
@@ -193,9 +151,6 @@ let footer = $(`
       </div>
         <div class="empty-space marg-lg-b30"></div>
       </div>
-      <?php
-      endif;
-      ?>
     </div>
 
   </div>
