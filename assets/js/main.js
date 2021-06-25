@@ -133,7 +133,7 @@ let footer = $(`
         </h4>
         <!-- TT-SUBSCRIBE -->
      <div class="contact-form">
-          <form action="webform.php" method="POST" class="form">
+          <form action="https://formcarry.com/s/rwVKh2kU6fA" method="POST" class="form">
               <fieldset class="form-group text-center">
                   <input type="text" class="form-control" id="cf_name" placeholder="Enter Name">
               </fieldset>
