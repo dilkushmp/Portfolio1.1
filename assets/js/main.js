@@ -132,25 +132,15 @@ let footer = $(`
           <small>Get In Touch</small>
         </h4>
         <!-- TT-SUBSCRIBE -->
-     <div class="contact-form">
-          <form action="https://formcarry.com/s/rwVKh2kU6fA" method="POST" class="form">
-              <fieldset class="form-group text-center">
-                  <input type="text" class="form-control" id="cf_name" placeholder="Enter Name">
-              </fieldset>
-              <fieldset class="form-group text-center">
-                  <input type="email" class="form-control" id="cf_email" placeholder="Enter email">
-              </fieldset>
-              <fieldset class="form-group text-center">
-                  <textarea class="form-control" id="cf_message" placeholder="Message"></textarea>
-              </fieldset>
-              <fieldset class="form-group text-xs-right text-center">
-              <button type="button" class="send-btn btn btn-lg">Send</button>
-                  <!-- <a href=" mailto:mpdilkush@gmail.com" button type="button" class="send-btn btn btn-lg">Send</button> </a> -->
-              </fieldset>
-          </form>
-      </div>
-        <div class="empty-space marg-lg-b30"></div>
-      </div>
+        </div>
+                    <form>
+                      <form action="https://formcarry.com/s/rwVKh2kU6fA" method="POST" accept-charset="UTF-8" >
+                      <input type="text" name="field1" placeholder="Your Name" required/>
+                      <input type="email" name="field2" placeholder="Email Address"  required/>
+                      <textarea name="field3" placeholder="Type your Message" required></textarea>
+                      <input type="submit" value="Send" />
+                    </form>
+                 </div>
     </div>
 
   </div>
